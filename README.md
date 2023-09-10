@@ -1,6 +1,15 @@
 # geomage
 Command line tool to convert geo-json into an image
 
+## Installation
+
+[Rust toolchain](https://www.rust-lang.org/tools/install) must be installed
+
+Install with cargo:
+```console
+cargo install --git https://github.com/fb64/geomage
+```
+
 ## Usage
 
 ```console
