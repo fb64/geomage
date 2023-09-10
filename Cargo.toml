@@ -3,6 +3,14 @@ name = "geomage"
 version = "0.1.0"
 authors = ["Florian Bernard <florian@flob.fr>"]
 edition = "2021"
+license = "MIT"
+description = "A tool to generate image from geojson file"
+keywords = ["cli", "image", "geojson"]
 
 [dependencies]
-clap = "3.0.14"
+clap = "4.4.2"
+json = "0.12.4"
+geojson = {version= "0.24.1",features=["geo-types"] }
+geo = "0.26.0"
+image = "0.24.2"
+imageproc = "0.23.0"
